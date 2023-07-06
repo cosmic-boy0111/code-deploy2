@@ -1,0 +1,17 @@
+
+.bottom_nav{
+    backdrop-filter: blur(10px);
+    position: sticky;
+    bottom: 0;
+    /* height: 40px; */
+    width: 100%;
+    display: none;
+    /* background-color: wheat; */
+}
+
+
+@media screen and (max-width : 900px){
+    .bottom_nav{
+        display: block;
+    }
+}

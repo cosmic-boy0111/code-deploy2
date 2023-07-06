@@ -1,0 +1,16 @@
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+    padding: 0 !important;
+}
+
+.card_Avatar{
+    display: flex;
+    align-items:center;
+}
+
+.channel_info{
+    margin-left: 1rem;
+}
+
+.point{
+    cursor: pointer;
+}

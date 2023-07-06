@@ -1,0 +1,48 @@
+.loader {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 244, 249);
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    animation: slide 2s ease;
+  }
+  
+  .website-name {
+    font-size: 30px;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fade 3s ease;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    /* 50% {
+      transform: translateX(0);
+    } */
+    100% {
+      transform: translateX(-20%);
+    }
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

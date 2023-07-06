@@ -1,0 +1,123 @@
+.video_page_video_info{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.video_action_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.channel_info_for_video{
+    /* margin-top: .5rem; */
+    display: flex;
+    /* align-items: center; */
+}
+
+.info_about_video_channel{
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+    width: 100%;
+
+    
+}
+
+.info_about_video_channel1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-bottom: 1rem; */
+}
+
+.playlist_data_container{
+    border:  1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1rem;
+}
+
+
+.playlist_header{
+    display: flex;
+    justify-content: space-between;
+    padding:  .5rem;
+    align-items: center;
+}
+
+.playlist_card_container{
+    padding: .5rem .3rem;
+
+}
+
+
+.playlist_videos{
+    max-height: 65vh;
+    overflow-y: scroll;
+    margin-top: .5rem;
+}
+
+
+.playlist_videos::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  .playlist_videos::-webkit-scrollbar-track {
+    background: #cdcdcd; 
+    background-color: transparent;
+    visibility: hidden;
+  }
+   
+  .playlist_videos::-webkit-scrollbar-thumb {
+    background: rgb(192, 189, 189); 
+    color: transparent;
+  }
+  
+  .playlist_videos::-webkit-scrollbar-thumb:hover {
+    background: rgb(203, 202, 202); 
+  }
+
+
+.recommended_videos{
+    /* margin: 1rem 0; */
+}
+
+.search_tag{
+    display: inline;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    /* background-color: #cdcdcd; */
+}
+
+.recommended_Body{
+    margin-top: 1rem;
+}
+
+.video_description{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .extra_res_video_container{
+    display: none;
+} */
+
+@media screen and (max-width : 400px){
+
+    .extra_res_video_container{
+        display: block;
+        position: sticky;
+        top: 4.2rem;
+        z-index: 2;
+    }
+    
+    .video_player{
+        /* position: absolute; */
+        top: -.35rem;
+    }
+  }
+
+
+

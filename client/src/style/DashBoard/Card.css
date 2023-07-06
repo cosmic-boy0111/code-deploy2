@@ -1,0 +1,43 @@
+.card_container{
+    /* box-shadow: none !important; */
+}
+
+.card_body{
+    /* border: 1px solid red; */
+    /* padding: .2rem 0; */
+    display: flex;
+    width: 100%;
+    /* min-height: 100px; */
+    /* justify-content: center; */
+    /* align-items: stretch; */
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+
+.link{
+    text-decoration: none;
+    /* color: black; */
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    /* text-transform: uppercase; */
+    word-wrap: break-word;
+}
+
+.dash_card_icon{
+    border-radius: 5px;
+    /* color: #1976d2 !important; */
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.pro_link_dash{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-decoration: none;
+    flex-direction: column;
+    width: 100%;
+}

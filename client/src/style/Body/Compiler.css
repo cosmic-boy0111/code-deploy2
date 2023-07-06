@@ -1,0 +1,236 @@
+.ioHeader {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  /* flex-wrap: wrap; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 .5rem;
+}
+
+/* pannel css */
+
+.split-sash-content {
+  width: 10%rem;
+  background-color: transparent !important;
+}
+
+.split-sash-content-active {
+  background-color: rgba(53, 53, 228, 0.501);
+}
+
+.panel_css {
+  height: 100%;
+    display: flex;
+    background: transparent;
+    padding: 1rem;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+.panel_css::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.panel_css::-webkit-scrollbar-track {
+  background: transparent !important; 
+}
+ 
+/* Handle */
+.panel_css::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* compiler */
+
+.monaco_editor{
+  font-size: 16px;
+}
+
+.select_lang {
+  justify-self: flex-end;
+}
+
+.code_holder {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+
+}
+
+.code_container {
+  height: 90vh;
+  overflow-y: scroll;
+  margin-top: .5rem;
+  border-radius: 4px;
+}
+
+
+
+.code_container::-webkit-scrollbar {
+  width: 0px;
+  border-radius: 100%;
+}
+
+/* Track */
+.code_container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.code_container::-webkit-scrollbar-thumb {
+  background: rgba(201, 200, 200, 0.582);
+}
+
+/* Handle on hover */
+.code_container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#id::-webkit-scrollbar {
+  width: 0px !important;
+  border-radius: 100%;
+}
+
+
+/* Track */
+.editor_box::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.editor_box::-webkit-scrollbar-thumb {
+  background: rgba(201, 200, 200, 0.582);
+}
+
+/* Handle on hover */
+.editor_box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.inputOutput {
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+
+
+.inputOutput::-webkit-scrollbar {
+  width: 3px;
+  border-radius: 100%;
+}
+
+/* Track */
+.inputOutput::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.inputOutput::-webkit-scrollbar-thumb {
+  background: rgba(201, 200, 200, 0.582);
+}
+
+/* Handle on hover */
+.inputOutput::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.code_footer {
+  width: 100%;
+  padding: 1rem;
+  position: fixed;
+  bottom: 1rem;
+  padding-right: 1rem;
+  border: 1px solid red;
+}
+
+.editor {
+  counter-reset: line;
+}
+
+.editor #codeArea {
+  outline: none;
+  padding-left: 60px !important;
+  overflow: scroll;
+}
+
+.editor pre {
+  padding-left: 60px !important;
+}
+
+.editor .editorLineNumber {
+  position: absolute;
+  left: 0px;
+  color: #cccccc;
+  text-align: right;
+  width: 40px;
+  font-weight: 100;
+}
+
+.code_Action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  position: absolute;
+  bottom: .5rem;
+}
+
+.Accordion_div {
+  /* top: -5rem; */
+  margin-top: .5rem;
+
+}
+
+.Action_Container {
+  padding: .5rem;
+  /* margin: .5rem 0; */
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+.code_input_textarea {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+.code_input_textarea::-webkit-scrollbar {
+  width: 3px;
+  border-radius: 100%;
+}
+
+/* Track */
+.code_input_textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.code_input_textarea::-webkit-scrollbar-thumb {
+  background: rgba(201, 200, 200, 0.582);
+}
+
+/* Handle on hover */
+.code_input_textarea::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ace_scrollbar-v,
+.ace_scrollbar-inner,
+.ace_scrollbar-h {
+  width: 0 !important;
+}
+
+.mini {
+  display: block;
+}
+
+@media screen and (max-width : 900px) {
+  .mini {
+    display: none;
+  }
+}

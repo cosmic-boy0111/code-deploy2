@@ -1,0 +1,102 @@
+.header_grid{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 1rem;
+}
+
+.total_user{
+    border-radius: 4px;
+    padding: 2rem;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user_join{
+    border-radius: 4px;
+    width: 70%;
+    text-align: center;
+}
+
+.user_list{
+    height: 100vh;
+    border: 1px solid red;
+}
+
+
+.email_link{
+    text-decoration: none;
+}
+
+.user_list_header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input_holder{
+    display: flex;
+    align-items: stretch;
+    /* flex-wrap: wrap; */
+    width: 50%;
+}
+
+.input_buttons{
+    /* width: 100%; */
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+}
+
+.filter_buttons{
+    display: flex;
+    /* width: 100%; */
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width : 800px) {
+    .header_grid{
+        flex-direction: column;
+    }
+
+    .total_user{
+        width: 100%;
+    }
+
+    .user_join{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .user_list_header{
+        flex-direction: column;
+    }
+
+    .input_holder{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .filter_buttons{
+        justify-content: flex-end;
+        margin-top: .5rem;
+    }
+
+}
+
+
+@media screen and (max-width : 450px){
+    .input_buttons{
+        flex-direction: column;
+    }
+
+    .second_input{
+        margin-top: .3rem;
+    }
+}
